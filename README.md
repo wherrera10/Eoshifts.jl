@@ -1,7 +1,7 @@
 # Eoshifts.jl
 Julia functions to emulate Fortran's eoshift
 
-## eoshift(arr::AbstractArray, shift::AbstractArray; dim = 1, boundary = :default)
+## eoshift(arr::AbstractArray, shift; dim = 1, boundary = :default)
 
 Fortran's EOSHIFT for Julia arrays. Emulates Fortran, so shift directions are opposite
 to Julia's built-in circshift. Fills with zeros by default (' ' for Char arrays), but
