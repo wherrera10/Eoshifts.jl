@@ -1,7 +1,7 @@
 name = "Eoshifts"
 uuid = "a610e8d0-bcf9-11f0-bd78-7b325b0dfb67"
 authors = ["William Herrera <wherrera@alahonua.com>"]
-version = "0.1.1"
+version = "0.1.2"
 
 [compat]
 julia = "1 - 2"
